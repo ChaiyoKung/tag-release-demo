@@ -3,33 +3,17 @@
 ## Project setup
 
 ```bash
-pnpm install
+bun install
 ```
 
-## Compile and run the project
+## Run the project
 
 ```bash
-# development
-pnpm run start
-
-# watch mode
-pnpm run start:dev
+# development mode
+bun dev
 
 # production mode
-pnpm run start:prod
-```
-
-## Run tests
-
-```bash
-# unit tests
-pnpm run test
-
-# e2e tests
-pnpm run test:e2e
-
-# test coverage
-pnpm run test:cov
+bun start
 ```
 
 ## Tag
